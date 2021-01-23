@@ -1,0 +1,135 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #9f9f9f;
+  background-color: #c9a3a3;
+}
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Changa', sans-serif;
+  color: #e91414;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 7rem;
+}
+h2 {
+  font-size: 4.5rem;
+  color: #ffffff;
+}
+h3 {
+  font-size: 2.4rem;
+}
+h4 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Changa', sans-serif;
+  color: #ffffff;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+.bg-light {
+  background-color: #ffffff;
+}
+.bg-dark {
+  background-color: #14151a;
+}
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: #e91414;
+}
+.btn {
+  background-color: #ffffff;
+  color: #e91414;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  border: none;
+  outline: none;
+  letter-spacing: 2px;
+  transition: all .5s;
+}
+
+.btn:hover {
+  background-color: #e91414;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #e91414;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: #e91414;
+}
+
+/**ANİMASYON**/
+@keyframes aykutAni{
+    0%{
+        opacity: 0;
+        transform: translateY(10rem);
+        -webkit-transform: translateY(10rem);
+        -moz-transform: translateY(10rem);
+        -ms-transform: translateY(10rem);
+        -o-transform: translateY(10rem);
+        border-top: 0px solid #6b2e2e;
+}
+
+    50%{
+        transform: translateY(-5rem);
+        -webkit-transform: translateY(-5rem);
+        -moz-transform: translateY(-5rem);
+        -ms-transform: translateY(-5rem);
+        -o-transform: translateY(-5rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        border-top: 2px solid #6b2e2e;
+}
+}
+
