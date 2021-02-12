@@ -1,0 +1,386 @@
+/**NAVBAR BAŞLANGIÇ**/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+  background-image: url(../ornek2/İMG/unnamed.jpg);
+  background-size: cover;
+}
+.navbar ul {
+    margin: 20px 0;
+  display: flex;
+  list-style-type: none;
+  padding: 15px;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 8px;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  border-right: 1px solid black;
+}
+.navbar a:hover {
+  background-color: yellow;
+  color: red;
+  padding-left: 30px;
+  border-radius: 5px;
+  transition: 0.5 all;
+  -webkit-transition: 0.5 all;
+  -moz-transition: 0.5 all;
+  -ms-transition: 0.5 all;
+  -o-transition: 0.5 all;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.navbar .h1 {
+  margin-left: 25px;
+  color: white;
+  letter-spacing: 1px;
+}
+.navbar .h1::before {
+  content: attr(data-text);
+  position: absolute;
+  overflow: hidden;
+  width: 0;
+  color: rgb(39, 9, 9);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.navbar .h1:hover::before {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar ul {
+    flex-direction: column;
+  }
+  .navbar a {
+    display: block;
+    line-height: 25px;
+    padding: 20px;
+    border: hidden;
+    text-align: center;
+    color: black;
+    box-shadow: 10px 10px 10px gray;
+    letter-spacing: 1px;
+  }
+  .navbar a:hover {
+    background-color: yellow;
+    color: red;
+    padding-left: 30px;
+    border-radius: 5px;
+    transition: 0.5 all;
+    -webkit-transition: 0.5 all;
+    -moz-transition: 0.5 all;
+    -ms-transition: 0.5 all;
+    -o-transition: 0.5 all;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  .navbar h1 {
+    box-shadow: 10px 10px 10px rgb(228, 20, 20);
+  }
+}
+
+/**NAVBAR BİTİŞ**/
+
+/**KUPALAR BAŞLANGIÇ**/
+
+.kupa-h2{
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    padding-top: 25px !important;
+    background-image: url(./İMG/responsive.tasarım.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: 1px;
+}
+.kupa img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+}
+.kupalar{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    background-image: url(./İMG/responsive.tasarım.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kupa{
+    width: 25%;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid red;
+    box-shadow: 10px 10px 5px gray;
+}
+.kupa:hover{
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.02);
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+
+@media(max-width:768px){
+    .kupalar{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .kupa{
+        width: 75%;
+    }
+    .kupa:hover{
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.02);
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+}
+
+/**KUPALAR BİTİŞ**/
+
+/**TEKNİK EKİP BAŞLANGIÇ**/
+
+.td img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.teknikEkip{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    margin-top: 0.80rem;
+    background-image: url(/ornek2/İMG/responsive.ft.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.td{
+    width: 25%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 15px 15px 8px gray;
+    margin: 0 5px;
+}
+
+@media(max-width: 768px){
+    .teknikEkip{
+        flex-direction: column;
+        height: auto;
+    }
+    .td{
+        width: 75%;
+        margin: 5px 0;
+    }
+    .td:hover{
+        transform: scale(1.03);
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+        -o-transition: 0.5s all;
+}
+}
+
+/**TEKNİK EKİP BİTİŞ**/
+
+/**TARİH BAŞLANGIÇ**/
+
+.tarih img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.tarih img:hover{
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.02);
+        transition: 0.8s;
+        -webkit-transition: 0.8s;
+        -moz-transition: 0.8s;
+        -ms-transition: 0.8s;
+        -o-transition: 0.8s;
+}
+.tarih{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-image: url(./İMG/Ali_samiyen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tarih p{
+    width: 75%;
+    line-height: 28px;
+    letter-spacing: 2px;
+    box-shadow: 15px 15px 8px gray;
+}
+.tarih p::first-letter{
+    font-size: 50px;
+}
+.tarih h2{
+    padding: 15px;
+}
+
+@media(max-width:768px){
+    .tarih{
+        height: auto;
+        margin-top: 3rem;
+}
+}
+
+/**TARİH BİTİŞ**/
+
+/**TOPBAR BAŞLANGIÇ**/
+
+.yorumlar{
+    position: relative;
+}
+.yorumlar .topbar{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    right: 0;
+    bottom: 75px;
+    position: fixed;
+}
+.yorumlar .topbar img{
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3px solid black;
+}
+
+/**TOPBAR BİTİŞ**/
+
+/**AVATAR BAŞLANGIÇ**/
+
+.avatar img{
+    width: 75px;
+    height: 75px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    border: 2px solid #ccc;
+    margin: 5px 0;
+    box-shadow: 20px 20px 15px gray;
+}
+.avatar{
+    margin: 35px;
+    text-align: center;
+}
+.yorumlar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./İMG/responsive.ft.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yorumlar .h3{
+    padding: 20px;
+    margin-top: 30px;
+}
+@media(max-width: 768px){
+    .user{
+        flex-direction: column;
+        width: 100%;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+        padding: 15px;
+        margin: 15px;
+    }
+}
+
+/**AVATAR BİTİŞ**/
+
+/**FOOTER BAŞLANGIÇ**/
+
+.footer{
+    background-color: rgba(247, 235, 130, 0.8);
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+
+/**FOOTER BİTİŞ**/
