@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 15px;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+/** Navbar **/
+.navbar {
+  background-color: rgb(0, 89, 255);
+}
+.navbar .kategori {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.navbar .kategori div {
+  padding: 15px;
+}
+.navbar .kategori div span i {
+  color: white;
+  padding-right: 5px;
+}
+.fa-search{
+  color: rgb(31, 30, 30);
+  opacity: 0.3;
+}
+.navbar .kategori div a {
+  color: white;
+  text-decoration: none;
+}
+.navbar .urunAra {
+  margin: 5px;
+  position: relative;
+  width: 50%;
+  height: 50px;
+}
+.navbar .urunAra input {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+::placeholder {
+  text-align: center;
+  font-size: 1rem;
+  opacity: 1;
+}
+.navbar .urunAra span {
+  position: absolute;
+  color: white;
+  padding: 10px;
+  left: 38%;
+}
+.navbar .column {
+  font-size: 1rem;
+  margin-right: 35px;
+  padding: 15px;
+}
+.navbar .column a {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/** Swiper **/
+
+div .swiper-container {
+  width: 100%;
+  height: 550px;
+  background-color: rgb(0, 89, 255);
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+div .swiper-button-next{
+  right: 100px;
+}
+div .swiper-button-prev{
+  left: 100px;
+}
+
+/** Öne çıkan ürünler **/
+.oneCıkanUrun {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.oneCıkanUrun h6 {
+  color: rgb(0, 119, 255);
+  font-size: 0.7rem;
+  font-weight: bolder;
+  padding: 10px;
+}
+.oneCıkanUrun h6 i {
+  padding: 10px;
+}
+.telefon {
+  margin: 5px;
+}
+#two .card {
+  width: 20%;
+}
+.card {
+  height: auto;
+  position: relative;
+  padding: 12px;
+  text-align: center;
+}
+.card small{
+  color: rgb(0, 119, 255);
+  font-weight: 700;
+  padding: 10px;
+  font-size: 0.6rem;
+}
+.card .adet{
+  background-color: rgba(20, 127, 248, 0.856);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.card:hover{
+  border: 1px solid gray;
+}
+.card img{
+  width: 100px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.card ul li{
+  padding-right: 30px;
+  font-size: 0.6rem;
+  opacity: 0.8;
+  line-height: 17px;
+  list-style: none;
+}
+.card h4{
+  padding-right: 30px;
+  font-size: 0.6rem;
+  font-weight: 650;
+  opacity: 0.8;
+}
+.card p {
+  padding-right: 30px;
+  color:  rgb(0, 119, 255);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.card .urun{
+  color: red;
+  opacity: 0.7;
+  position: absolute;
+  font-weight: 800;
+  bottom: 20px;
+  padding-left: 40px;
+}
+.card #btn{
+  background-color:  rgb(0, 68, 255);
+  color: #fff;
+  position: absolute;
+  font-size: 0.6rem;
+  font-weight: 600;
+  border: none;
+  width: 100%;
+  height: 10%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+}
+.card #btn:hover {
+  opacity: 1;
+  color: #fff;
+}
+.card #btn i{
+  background-color: rgba(0, 0, 255, 0.685);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-top: 7px;
+  height: 100%;
+  width: 35px;
+}
+
+/**Öne çıkan ürünler 2 = swiper**/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  height: auto !important;
+  background: #fff;
+  border: 1px solid gray;
+  border-left: none;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+section .swiper-button-next{
+  right: 0;
+}
+section .swiper-button-prev{
+  left: 0;
+}
+section .swiper-slide small{
+  background-color: rgba(20, 127, 248, 0.856);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+section .swiper-slide img{
+  width: 100px;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+section .swiper-slide ul li{
+  padding-right: 30px;
+  font-size: 0.6rem;
+  opacity: 0.8;
+  line-height: 17px;
+  list-style: none;
+}
+section .swiper-slide ul li:last-child{
+  background-color: rgba(197, 192, 192, 0.404);
+  position: absolute;
+  width: 135px;
+  margin-left: 13px;
+  padding-left: 25px;
+  font-weight: 700;
+  opacity: 0.7;
+  bottom: 5px;
+}
+section .swiper-slide h4{
+  padding-right: 30px;
+  font-size: 0.6rem;
+  font-weight: 650;
+  opacity: 0.8;
+}
+section .swiper-slide p {
+  padding-right: 30px;
+  color:  rgb(0, 119, 255);
+  font-size: 2rem;
+  font-weight: 600;
+}
+section .swiper-slide #btn{
+  background-color:  rgb(0, 119, 255);
+  color: #fff;
+  position: absolute;
+  font-size: 0.6rem;
+  font-weight: 600;
+  border: none;
+  width: 100%;
+  height: 10%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+}
+section .swiper-slide #btn:hover {
+  opacity: 1;
+  color: #fff;
+}
+section .swiper-slide #btn i{
+  background-color: blue;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-top: 7px;
+  height: 100%;
+  width: 35px;
+}
+
+@media (max-width: 760px) {
+  .swiper-button-next {
+    right: 20px;
+}
+
+  .swiper-button-prev {
+    left: 20px;
+}
+}
+/**FOOTER**/
+.footer {
+  margin-top: 100px !important;
+  margin-bottom: 100px;
+  margin-left: 250px;
+  margin-right: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.footer .col-md-4 {
+  padding: 50px;
+}
+.footer .col-md-4 div{
+  display: flex;
+  flex-direction: row;
+}
+.footer h6 small {
+  font-weight: 650;
+}
+.footer li {
+  border: none;
+  line-height: 5px;
+}
+.footer li a {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  color: black;
+}
+/*****************************************/
+
+footer .col-md-6 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+footer .col-md-6 p {
+  margin-left: 150px;
+  font-size: 0.6rem;
+  font-weight: 550;
+}
+footer .col-md-6 .resim {
+  right: 50px;
+  bottom: 5px;
+  position: absolute;
+}

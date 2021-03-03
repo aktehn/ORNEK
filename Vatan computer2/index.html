@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!--Swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Rubik&display=swap" rel="stylesheet">
+    <!--Font awasome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- JQuary -->
+    <script src="jquery-3.5.1.min.js"></script>
+    <title>50% Loaded</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar sticky-top">
+        <div class="container">
+            <div class="kategori">
+                <a href="#" class="vatan"><img src="./img/vatan.png" alt="Vatan Computer" width="115"></a>
+                <div>
+                    <span class="icon">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </span>
+                    <a href="#">Kategoriler</a>
+                </div>
+            </div>
+    
+            <div class="urunAra">
+                <div>
+                    <input type="search" placeholder="Ürün ara">
+                    <span id="icon" class="icon">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <a href="#" class="icon">Üyelik
+                        <span class="fa-stack mx-2">
+                            <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="icon">Sepetim
+                        <span class="fa-stack mx-2">
+                            <i class="fa fa-shopping-basket fa-2x" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="https://via.placeholder.com/250x350/300" alt="Slide 1"></div>
+            <div class="swiper-slide"><img src="https://via.placeholder.com/250x350/300" alt="Slide 2"></div>
+            <div class="swiper-slide"><img src="https://via.placeholder.com/250x350/300" alt="Slide 3"></div>
+            <div class="swiper-slide"><img src="https://via.placeholder.com/250x350/300" alt="Slide 4"></div>
+            <div class="swiper-slide"><img src="https://via.placeholder.com/250x350/300" alt="Slide 5"></div>
+            <div class="swiper-slide"><img src="https://via.placeholder.com/250x350/300" alt="Slide 6"></div>
+            <div class="swiper-slide"><img src="https://via.placeholder.com/250x350/300" alt="Slide 7"></div>
+            <div class="swiper-slide"><img src="https://via.placeholder.com/250x350/300" alt="Slide 8"></div>
+            <div class="swiper-slide"><img src="https://via.placeholder.com/250x350/300" alt="Slide 9"></div>
+            <div class="swiper-slide"><img src="https://via.placeholder.com/250x350/300" alt="Slide 10"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <!-- Öne çıkan ürünler 1 -->
+    <section class="container">
+        <div class="oneCıkanUrun">
+            <h3 class="telefon">Öne çıkan ürünler</h3>
+            <h6 class="telefon">TÜM ÖNE ÇIKANLAR <i class="fa fa-arrow-right" aria-hidden="true"></i></h6>
+        </div>
+        <div class="row mt-3" id="two">
+            <div class="col-md d-flex flex-wrap">
+        
+                <div class="widget widget-list card" >
+                    <img src="https://via.placeholder.com/350x350">
+                    <small class="urun">YALNIZCA 2 ÜRÜN KALDI!</small>
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE EKLE</button>
+                </div>
+                <div class="widget widget-list card">
+                    <img src="https://via.placeholder.com/350x350">
+                    <small class="urun">YALNIZCA 2 ÜRÜN KALDI!</small>
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE EKLE</button>
+                </div>
+                <div class="widget widget-list card">
+                    <small class="adet">AZ ÖNCE 1 ADET SATILDI!</small>
+                    <img src="https://via.placeholder.com/350x350">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE EKLE</button>
+                </div>
+                <div class="widget widget-list card">
+                    <small>WEB'E ÖZEL</small>
+                    <img src="https://via.placeholder.com/350x350">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE EKLE</button>
+                </div>
+                <div class="widget widget-list card">
+                    <small>WEB'E ÖZEL</small>
+                    <img src="https://via.placeholder.com/350x350">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE EKLE</button>
+                </div>
+                <div class="widget widget-list card">
+                    <small>WEB'E ÖZEL</small>
+                    <img src="https://via.placeholder.com/350x350">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE EKLE</button>
+                </div>
+                <div class="widget widget-list card">
+                    <small>WEB'E ÖZEL</small>
+                    <img src="https://via.placeholder.com/350x350">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE EKLE</button>
+                </div>
+                <div class="widget widget-list card">
+                    <small>WEB'E ÖZEL</small>
+                    <img src="https://via.placeholder.com/350x350">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE EKLE</button>
+                </div>
+                <div class="widget widget-list card">
+                    <img src="https://via.placeholder.com/350x350">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE EKLE</button>
+                </div>
+                <div class="widget widget-list card">
+                    <small>WEB'E ÖZEL</small>
+                    <img src="https://via.placeholder.com/350x350">
+                    <small class="urun">YALNIZCA 2 ÜRÜN KALDI!</small>
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE EKLE</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Öne çıkan ürünler 2 -->
+    <!-- Swiper -->
+  <section class=" container mt-5">
+        <div class="oneCıkanUrun">
+            <h3 class="telefon">Öne çıkan ürünler</h3>
+            <h6 class="telefon">TÜM ÖNE ÇIKANLAR <i class="fa fa-arrow-right" aria-hidden="true"></i></h6>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+
+                <div class="widget widget-swiperr swiper-slide">
+                    <img src="https://via.placeholder.com/150x200">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE EKLE</button>
+                </div>
+
+                <div class="widget widget-swiperr swiper-slide">
+                    <img src="https://via.placeholder.com/150x200">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE
+                        EKLE</button>
+                </div>
+
+                <div class="widget widget-swiperr swiper-slide">
+                    <img src="https://via.placeholder.com/150x200">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE
+                        EKLE</button>
+                </div>
+
+                <div class="widget widget-swiperr swiper-slide">
+                    <img src="https://via.placeholder.com/150x200">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE
+                        EKLE</button>
+                </div>
+
+                <div class="widget widget-swiperr swiper-slide">
+                    <img src="https://via.placeholder.com/150x200">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE
+                        EKLE</button>
+                </div>
+
+                <div class="widget widget-swiperr swiper-slide">
+                    <img src="https://via.placeholder.com/150x200">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE
+                        EKLE</button>
+                </div>
+
+                <div class="widget widget-swiperr swiper-slide">
+                    <img src="https://via.placeholder.com/150x200">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE
+                        EKLE</button>
+                </div>
+
+                <div class="widget widget-swiperr swiper-slide">
+                    <small class="adet">AZ ÖNCE 1 ADET SATILDI!</small>
+                    <img src="https://via.placeholder.com/150x200">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE
+                        EKLE</button>
+                </div>
+
+                <div class="widget widget-swiperr swiper-slide">
+                    <img src="https://via.placeholder.com/150x200">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE
+                        EKLE</button>
+                </div>
+
+                <div class="widget widget-swiperr swiper-slide">
+                    <img src="https://via.placeholder.com/150x200">
+                    <button id="btn" type="button" class="btn"><i class="fa fa-exchange fa-2x" aria-hidden="true"></i>SEPETE
+                        EKLE</button>
+                </div>
+                
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+  </section>
+    <!-- footer 1 -->
+    <div class=" footer">
+        <div class="col-md-4">
+            <h6 class="text-muted mx-4"><small>KURUMSAL</small></h6>
+            <div class="mx-2">
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Hakkımızda</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Müşteri
+                            Hizmetleri</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Sipariş
+                            Aşamaları</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Sıkça Sorulan
+                            Sorular</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">İnsan
+                            Kaynakları</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Gizlilik
+                            Politikalarımız</a></li>
+                </ul>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">İletişim</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Vatan
+                            Card</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Servis Talep
+                            Formu</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Mağazalar</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">İşlem
+                            Rehberi</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="col-md-4">
+            <h6 class="text-muted mx-3"><small>KATEGORİLER</small></h6>
+            <div>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Bilgisayar</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Cep Telefonu</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Tablet PC</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Akıllı Saat</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Vestel TV</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Oyun Bilgisayarı</a></li>
+                </ul>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Küçük Ev Aletleri</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Kişisel Bakım Ürünleri</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Elektrikli Süpürge</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Ütü</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Masaüstü Bilgisayar</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Sabit Diskler</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="col-md-4">
+            <h6 class="text-muted mx-3"><small>ÖZEL ÜRÜNLER</small></h6>
+            <div>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">iphone 7</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">iphone 6S</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">iphone 5S</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">iphone SE</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">General Mobile 5 Plus</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Galaxy S7</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Note 5</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="#"
+                            class="text-muted text-decoration-none">Galaxy S6</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer 2 -->
+    <footer class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <p class="text-muted">Türkiye'nin Teknoloji Hipertrosu</p>
+                    <p class="text-muted">Copeyright 2016 Vatan Bilgisayar San. ve Tic. A.Ş.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="resim">
+                    <img src="./img/express.png" width="80px">
+                    <img src="./img/master-card.jpg" width="80px">
+                    <img src="./img/visa.jpg" width="80px">
+                    <img src="./img/norton.png" width="80px">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+    <script src="./Add.js"></script>
+    <script src="./swiper.js"></script>
+</body>
+</html>
